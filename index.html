@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>☁️ CloudFile - Servidor Android</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .header {
+            margin-bottom: 50px;
+        }
+        .logo {
+            font-size: 4.5rem;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin: 10px 0;
+            background: linear-gradient(to right, #00ff88, #00ccff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.3rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        .card {
+            background: rgba(255,255,255,0.08);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 30px 0;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+        .upload-link {
+            display: inline-block;
+            background: #00ff88;
+            color: #000;
+            padding: 18px 40px;
+            font-size: 1.4rem;
+            font-weight: 700;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 20px 0;
+            transition: all 0.3s;
+            box-shadow: 0 8px 20px rgba(0, 255, 136, 0.4);
+        }
+        .upload-link:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 255, 136, 0.6);
+        }
+        .anydesk {
+            background: #ff4444;
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 30px auto;
+            max-width: 550px;
+        }
+        .code {
+            font-size: 2.2rem;
+            font-weight: 700;
+            letter-spacing: 8px;
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .password {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: 4px;
+            background: rgba(0,0,0,0.3);
+            padding: 12px;
+            border-radius: 10px;
+            margin: 15px 0;
+        }
+        .warning {
+            background: rgba(255, 200, 0, 0.15);
+            border-left: 5px solid #ffcc00;
+            padding: 15px;
+            margin: 30px auto;
+            max-width: 700px;
+            text-align: left;
+            border-radius: 8px;
+        }
+        footer {
+            margin-top: 60px;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">☁️</div>
+            <h1>CloudFile Android</h1>
+            <p class="subtitle">Envie os arquivos que quiser para o servidor</p>
+        </div>
+
+        <div class="card">
+            <h2>📤 Como enviar arquivos</h2>
+            <p style="font-size: 1.2rem; margin: 25px 0;">
+                Clique no botão abaixo e faça upload dos arquivos que desejar.
+                Todos os arquivos enviados ficarão disponíveis no servidor Android.
+            </p>
+            
+            <a href="https://mok802749-ui.github.io/cloudfile/" target="_blank" class="upload-link">
+                ➜ ENVIAR ARQUIVOS AGORA
+            </a>
+            
+            <p style="margin-top: 30px; opacity: 0.8;">
+                Link direto: <strong>https://mok802749-ui.github.io/cloudfile/</strong>
+            </p>
+        </div>
+
+        <div class="card">
+            <h2>📱 Acesso Remoto via AnyDesk</h2>
+            <p>Para acessar o celular/servidor:</p>
+            
+            <div class="anydesk">
+                <strong>Código AnyDesk:</strong>
+                <div class="code">1991047156</div>
+                
+                <strong>Senha:</strong>
+                <div class="password">12345</div>
+                
+                <small>1. Abra o AnyDesk no seu computador<br>
+                       2. Digite o código acima<br>
+                       3. Quando pedir, informe a senha: <strong>12345</strong></small>
+            </div>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Atenção:</strong><br>
+            • Apenas envie arquivos que você tem permissão.<br>
+            • O acesso via AnyDesk permite controle total do dispositivo.<br>
+            • Mantenha o AnyDesk seguro e feche quando não estiver usando.
+        </div>
+
+        <footer>
+            Servidor Android • CloudFile • Feito para compartilhamento fácil de arquivos
+        </footer>
+    </div>
+</body>
+  </html>
